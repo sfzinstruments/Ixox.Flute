@@ -1,0 +1,40 @@
+#include "Data/setting/int_4th.txt"
+#include "Data/setting/sw_maj_05.txt"
+
+#define $tune_60 100
+#define $tune_61 0
+#define $tune_62 100
+#define $tune_63 0
+#define $tune_64 0
+#define $tune_65 100
+#define $tune_66 0
+#define $tune_67 100
+#define $tune_68 0
+#define $tune_69 100
+#define $tune_70 0
+#define $tune_71 0
+#define $tune_72 100
+#define $tune_73 0
+#define $tune_74 100
+#define $tune_75 0
+#define $tune_76 0
+#define $tune_77 100
+#define $tune_78 0
+#define $tune_79 100
+#define $tune_80 0
+#define $tune_81 100
+#define $tune_82 0
+#define $tune_83 0
+#define $tune_84 100
+#define $tune_85 0
+#define $tune_86 100
+#define $tune_87 0
+#define $tune_88 0
+#define $tune_89 100
+#define $tune_90 0
+#define $tune_91 100
+#define $tune_92 0
+#define $tune_93 100
+#define $tune_94 0
+#define $tune_95 0
+#define $tune_96 100

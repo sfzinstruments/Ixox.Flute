@@ -1,0 +1,38 @@
+<region> lokey=60 hikey=61 pitch_keycenter=60 sample=nor_p_1_1.$EXT region_label=1_1_p hivel=$nor_p_hi
+<region> lokey=62 hikey=64 pitch_keycenter=63 sample=nor_p_1_3.$EXT region_label=1_3_p hivel=$nor_p_hi
+<region> lokey=65 hikey=67 pitch_keycenter=66 sample=nor_p_1_4.$EXT region_label=1_4_p hivel=$nor_p_hi
+<region> lokey=68 hikey=70 pitch_keycenter=69 sample=nor_p_1_6.$EXT region_label=1_6_p hivel=$nor_p_hi
+<region> lokey=71 hikey=73 pitch_keycenter=72 sample=nor_p_2_1.$EXT region_label=2_1_p hivel=$nor_p_hi
+<region> lokey=74 hikey=76 pitch_keycenter=75 sample=nor_p_2_3.$EXT region_label=2_3_p hivel=$nor_p_hi tune=5
+<region> lokey=77 hikey=79 pitch_keycenter=78 sample=nor_p_2_4.$EXT region_label=2_4_p hivel=$nor_p_hi
+<region> lokey=80 hikey=82 pitch_keycenter=81 sample=nor_p_2_6.$EXT region_label=2_6_p hivel=$nor_p_hi
+<region> lokey=83 hikey=85 pitch_keycenter=84 sample=nor_p_3_1.$EXT region_label=3_1_p hivel=$nor_p_hi
+<region> lokey=86 hikey=88 pitch_keycenter=87 sample=nor_p_3_3.$EXT region_label=3_3_p hivel=$nor_p_hi
+<region> lokey=89 hikey=91 pitch_keycenter=90 sample=nor_p_3_4.$EXT region_label=3_4_p hivel=$nor_p_hi
+<region> lokey=92 hikey=96 pitch_keycenter=93 sample=nor_p_3_6.$EXT region_label=3_6_p hivel=$nor_p_hi
+
+<region> lokey=60 hikey=61 pitch_keycenter=60 sample=nor_m_1_1.$EXT region_label=1_1_m lovel=$nor_m_lo hivel=$nor_m_hi
+<region> lokey=62 hikey=64 pitch_keycenter=63 sample=nor_m_1_3.$EXT region_label=1_3_m lovel=$nor_m_lo hivel=$nor_m_hi
+<region> lokey=65 hikey=67 pitch_keycenter=66 sample=nor_m_1_4.$EXT region_label=1_4_m lovel=$nor_m_lo hivel=$nor_m_hi
+<region> lokey=68 hikey=70 pitch_keycenter=69 sample=nor_m_1_6.$EXT region_label=1_6_m lovel=$nor_m_lo hivel=$nor_m_hi
+<region> lokey=71 hikey=73 pitch_keycenter=72 sample=nor_m_2_1.$EXT region_label=2_1_m lovel=$nor_m_lo hivel=$nor_m_hi
+<region> lokey=74 hikey=76 pitch_keycenter=75 sample=nor_m_2_3.$EXT region_label=2_3_m lovel=$nor_m_lo hivel=$nor_m_hi
+<region> lokey=77 hikey=79 pitch_keycenter=78 sample=nor_m_2_4.$EXT region_label=2_4_m lovel=$nor_m_lo hivel=$nor_m_hi
+<region> lokey=80 hikey=82 pitch_keycenter=81 sample=nor_m_2_6.$EXT region_label=2_6_m lovel=$nor_m_lo hivel=$nor_m_hi
+<region> lokey=83 hikey=85 pitch_keycenter=84 sample=nor_m_3_1.$EXT region_label=3_1_m lovel=$nor_m_lo hivel=$nor_m_hi
+<region> lokey=86 hikey=88 pitch_keycenter=87 sample=nor_m_3_3.$EXT region_label=3_3_m lovel=$nor_m_lo hivel=$nor_m_hi
+<region> lokey=89 hikey=91 pitch_keycenter=90 sample=nor_m_3_4.$EXT region_label=3_4_m lovel=$nor_m_lo hivel=$nor_m_hi tune=-15
+<region> lokey=92 hikey=96 pitch_keycenter=93 sample=nor_m_3_6.$EXT region_label=3_6_m lovel=$nor_m_lo hivel=$nor_m_hi
+
+<region> lokey=60 hikey=61 pitch_keycenter=60 sample=nor_f_1_1.$EXT region_label=1_1_f lovel=$nor_f_lo
+<region> lokey=62 hikey=64 pitch_keycenter=63 sample=nor_f_1_3.$EXT region_label=1_3_f lovel=$nor_f_lo
+<region> lokey=65 hikey=67 pitch_keycenter=66 sample=nor_f_1_4.$EXT region_label=1_4_f lovel=$nor_f_lo
+<region> lokey=68 hikey=70 pitch_keycenter=69 sample=nor_f_1_6.$EXT region_label=1_6_f lovel=$nor_f_lo
+<region> lokey=71 hikey=73 pitch_keycenter=72 sample=nor_f_2_1.$EXT region_label=2_1_f lovel=$nor_f_lo
+<region> lokey=74 hikey=76 pitch_keycenter=75 sample=nor_f_2_3.$EXT region_label=2_3_f lovel=$nor_f_lo
+<region> lokey=77 hikey=79 pitch_keycenter=78 sample=nor_f_2_4.$EXT region_label=2_4_f lovel=$nor_f_lo
+<region> lokey=80 hikey=82 pitch_keycenter=81 sample=nor_f_2_6.$EXT region_label=2_6_f lovel=$nor_f_lo
+<region> lokey=83 hikey=85 pitch_keycenter=84 sample=nor_f_3_1.$EXT region_label=3_1_f lovel=$nor_f_lo
+<region> lokey=86 hikey=88 pitch_keycenter=87 sample=nor_f_3_3.$EXT region_label=3_3_f lovel=$nor_f_lo tune=-20
+<region> lokey=89 hikey=91 pitch_keycenter=90 sample=nor_f_3_4.$EXT region_label=3_4_f lovel=$nor_f_lo tune=-25
+<region> lokey=92 hikey=96 pitch_keycenter=93 sample=nor_f_3_6.$EXT region_label=3_6_f lovel=$nor_f_lo

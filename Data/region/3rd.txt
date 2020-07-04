@@ -1,0 +1,37 @@
+<region> key=60 tune=$tune_60 sample=two_1_3.$EXT region_label=1_3
+<region> key=61 tune=$tune_61 sample=two_1_4.$EXT region_label=1_4
+<region> key=62 tune=$tune_62 sample=two_1_4.$EXT region_label=1_4 transpose=1
+<region> key=63 tune=$tune_63 sample=two_1_4.$EXT region_label=1_4 transpose=2
+<region> key=64 tune=$tune_64 sample=two_1_6.$EXT region_label=1_6 transpose=-1
+<region> key=65 tune=$tune_65 sample=two_1_6.$EXT region_label=1_6
+<region> key=66 tune=$tune_66 sample=two_1_6.$EXT region_label=1_6 transpose=1
+<region> key=67 tune=$tune_67 sample=two_2_1.$EXT region_label=2_1 transpose=-1
+<region> key=68 tune=$tune_68 sample=two_2_1.$EXT region_label=2_1
+<region> key=69 tune=$tune_69 sample=two_2_1.$EXT region_label=2_1 transpose=1
+<region> key=70 tune=$tune_70 sample=two_2_3.$EXT region_label=2_3 transpose=-2
+<region> key=71 tune=$tune_71 sample=two_2_3.$EXT region_label=2_3 transpose=-1
+<region> key=72 tune=$tune_72 sample=two_2_3.$EXT region_label=2_3
+<region> key=73 tune=$tune_73 sample=two_2_4.$EXT region_label=2_4
+<region> key=74 tune=$tune_74 sample=two_2_4.$EXT region_label=2_4 transpose=1
+<region> key=75 tune=$tune_75 sample=two_2_4.$EXT region_label=2_4 transpose=2
+<region> key=76 tune=$tune_76 sample=two_2_6.$EXT region_label=2_6 transpose=-1
+<region> key=77 tune=$tune_77 sample=two_2_6.$EXT region_label=2_6
+<region> key=78 tune=$tune_78 sample=two_2_6.$EXT region_label=2_6 transpose=1
+<region> key=79 tune=$tune_79 sample=two_3_1.$EXT region_label=3_1 transpose=-1
+<region> key=80 tune=$tune_80 sample=two_3_1.$EXT region_label=3_1
+<region> key=81 tune=$tune_81 sample=two_3_1.$EXT region_label=3_1 transpose=1
+<region> key=82 tune=$tune_82 sample=two_3_3.$EXT region_label=3_3 transpose=-2
+<region> key=83 tune=$tune_83 sample=two_3_3.$EXT region_label=3_3 transpose=-1
+<region> key=84 tune=$tune_84 sample=two_3_3.$EXT region_label=3_3
+<region> key=85 tune=$tune_85 sample=two_3_4.$EXT region_label=3_4
+<region> key=86 tune=$tune_86 sample=two_3_4.$EXT region_label=3_4 transpose=1
+<region> key=87 tune=$tune_87 sample=two_3_4.$EXT region_label=3_4 transpose=2
+<region> key=88 tune=$tune_88 sample=two_3_6.$EXT region_label=3_6 transpose=-1
+<region> key=89 tune=$tune_89 sample=two_3_6.$EXT region_label=3_6
+<region> key=90 tune=$tune_90 sample=two_3_6.$EXT region_label=3_6 transpose=1
+<region> key=91 tune=$tune_91 sample=two_3_6.$EXT region_label=3_6 transpose=2
+<region> key=92 tune=$tune_92 sample=two_3_6.$EXT region_label=3_6 transpose=3
+<region> key=93 tune=$tune_93 sample=two_3_6.$EXT region_label=3_6 transpose=4
+<region> key=94 tune=$tune_94 sample=two_3_6.$EXT region_label=3_6 transpose=5
+<region> key=95 tune=$tune_95 sample=two_3_6.$EXT region_label=3_6 transpose=6
+<region> key=96 tune=$tune_96 sample=two_3_6.$EXT region_label=3_6 transpose=7

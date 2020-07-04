@@ -1,0 +1,7 @@
+group_label=legato
+trigger=legato
+polyphony=1
+offset=10000
+offset_random=10000
+ampeg_attack=0.06
+locc$LEGATO=1

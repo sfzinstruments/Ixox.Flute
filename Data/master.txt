@@ -1,0 +1,5 @@
+off_time=0.06
+off_shape=0
+pitchlfo_fade=$VIB_FADE
+pitchlfo_freq=$VIB_FREQ
+pitchlfo_depth_oncc$VIBRATO=$VIB_DEPTH

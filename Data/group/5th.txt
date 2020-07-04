@@ -1,0 +1,10 @@
+<group>
+group=3
+off_by=4
+group_label=attack
+#include "Data/region/5th.txt"
+
+<group>
+group=4
+#include "Data/setting/legato.txt"
+#include "Data/region/5th.txt"

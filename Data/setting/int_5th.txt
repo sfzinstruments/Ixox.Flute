@@ -1,0 +1,3 @@
+master_label=scale 5th
+locc$INTERVAL=85
+hicc$INTERVAL=127

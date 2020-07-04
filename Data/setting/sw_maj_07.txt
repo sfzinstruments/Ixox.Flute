@@ -1,0 +1,2 @@
+sw_last=30
+sw_label=Gb - Ebm

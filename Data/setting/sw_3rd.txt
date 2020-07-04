@@ -1,0 +1,2 @@
+sw_last=40
+sw_label=Major 3rd

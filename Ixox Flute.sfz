@@ -1,0 +1,200 @@
+// --------------------------------------
+// SFZ format v2 with ARIA extensions
+// --------------------------------------
+// Ixox Flute
+// by Xavier Hosxe
+// --------------------------------------
+// converted by kinwie
+// --------------------------------------
+
+
+//midi cc
+#define $VIBRATO 1
+#define $EXP 11
+#define $LEGATO 64
+#define $VELTRACK 69
+#define $F1_VOL 80
+#define $F1_PAN 82
+#define $F1_TUN 81
+#define $F1_ATT 83
+#define $F1_REL 84
+#define $F1_ART 85
+#define $F2_VOL 86
+#define $F2_PAN 88
+#define $F2_TUN 87
+#define $F2_ATT 89
+#define $F2_REL 90
+#define $F2_DIS 91
+#define $INTERVAL 92
+
+//normal vel range
+#define $nor_p_hi 49
+#define $nor_m_lo 50
+#define $nor_m_hi 99
+#define $nor_f_lo 100
+
+//staccato vel range
+#define $det_p_hi 74
+#define $det_f_lo 75
+
+//vibrato range
+#define $VIB_FADE 2
+#define $VIB_FREQ 5.4
+#define $VIB_DEPTH 50
+
+//file extension
+#define $EXT flac
+
+
+////////////////////////////////////////////////////////
+<control>
+default_path=Samples/
+
+label_cc7=Master Vol
+label_cc10=Master Pan
+label_cc$VIBRATO=Vibrato
+label_cc$EXP=Exp
+label_cc$LEGATO=Legato
+label_cc$VELTRACK=Veltrack
+label_cc$F1_VOL=Flute 1
+label_cc$F1_PAN=Pan
+label_cc$F1_TUN=Tune
+label_cc$F1_ATT=Attack
+label_cc$F1_REL=Release
+label_cc$F1_ART=Norm/Stac/Perc
+label_cc$F2_VOL=Flute 2
+label_cc$F2_PAN=Pan
+label_cc$F2_TUN=Tune
+label_cc$F2_ATT=Attack
+label_cc$F2_REL=Release
+label_cc$F2_DIS=Distance
+label_cc$INTERVAL=Scale 3/4/5
+
+set_hdcc7=0.79
+set_hdcc10=0.5
+set_hdcc$EXP=1
+set_hdcc$VELTRACK=1
+set_hdcc$F1_VOL=0.5
+set_hdcc$F1_PAN=0.5
+set_hdcc$F1_TUN=0.5
+set_hdcc$F1_REL=0.08
+set_hdcc$F2_VOL=0
+set_hdcc$F2_PAN=0.5
+set_hdcc$F2_TUN=0.5
+set_hdcc$F2_REL=0.1
+
+
+//*************************************************
+<global>
+locc$F1_VOL=1
+amplitude_oncc$F1_VOL=200
+pan_oncc$F1_PAN=100
+pan_curvecc$F1_PAN=1
+tune_oncc$F1_TUN=100
+tune_curvecc$F1_TUN=1
+#include "Data/global.txt"
+
+//------------------------------------------
+<master>
+locc$F1_ART=0
+hicc$F1_ART=42
+ampeg_attack_oncc$F1_ATT=2
+ampeg_release_oncc$F1_REL=2
+#include "Data/master.txt"
+
+<group>
+group=1
+off_by=2
+group_label=normal
+#include "Data/region/nor.txt"
+
+<group>
+group=2
+#include "Data/setting/legato.txt"
+#include "Data/region/nor.txt"
+
+//------------------------------------------
+<master>
+ampeg_release=0.25
+
+<group>
+locc$F1_ART=43
+hicc$F1_ART=84
+group_volume=-2
+group_label=staccato
+#include "Data/region/det.txt"
+
+<group>
+locc$F1_ART=85
+hicc$F1_ART=127
+group_label=percussive
+#include "Data/region/per.txt"
+
+
+//*************************************************
+<global>
+locc$F2_VOL=1
+amplitude_oncc$F2_VOL=400
+pan_oncc$F2_PAN=100
+pan_curvecc$F2_PAN=1
+tune_oncc$F2_TUN=100
+tune_curvecc$F2_TUN=1
+ampeg_attack_oncc$F2_ATT=2
+ampeg_release_oncc$F2_REL=2
+#include "Data/global.txt"
+#include "Data/master.txt"
+#include "Data/setting/sw_set.txt"
+
+//distance
+fil_type=lpf_1p
+cutoff=22050
+cutoff_oncc$F2_DIS=-9600
+volume_oncc$F2_DIS=-6
+delay_oncc$F2_DIS=0.05
+
+<master> #include "Data/scale/3rd_maj_01.txt" #include "Data/group/3rd.txt"
+<master> #include "Data/scale/3rd_maj_02.txt" #include "Data/group/3rd.txt"
+<master> #include "Data/scale/3rd_maj_03.txt" #include "Data/group/3rd.txt"
+<master> #include "Data/scale/3rd_maj_04.txt" #include "Data/group/3rd.txt"
+<master> #include "Data/scale/3rd_maj_05.txt" #include "Data/group/3rd.txt"
+<master> #include "Data/scale/3rd_maj_06.txt" #include "Data/group/3rd.txt"
+<master> #include "Data/scale/3rd_maj_07.txt" #include "Data/group/3rd.txt"
+<master> #include "Data/scale/3rd_maj_08.txt" #include "Data/group/3rd.txt"
+<master> #include "Data/scale/3rd_maj_09.txt" #include "Data/group/3rd.txt"
+<master> #include "Data/scale/3rd_maj_10.txt" #include "Data/group/3rd.txt"
+<master> #include "Data/scale/3rd_maj_11.txt" #include "Data/group/3rd.txt"
+<master> #include "Data/scale/3rd_maj_12.txt" #include "Data/group/3rd.txt"
+
+<master> #include "Data/scale/4th_maj_01.txt" #include "Data/group/4th.txt"
+<master> #include "Data/scale/4th_maj_02.txt" #include "Data/group/4th.txt"
+<master> #include "Data/scale/4th_maj_03.txt" #include "Data/group/4th.txt"
+<master> #include "Data/scale/4th_maj_04.txt" #include "Data/group/4th.txt"
+<master> #include "Data/scale/4th_maj_05.txt" #include "Data/group/4th.txt"
+<master> #include "Data/scale/4th_maj_06.txt" #include "Data/group/4th.txt"
+<master> #include "Data/scale/4th_maj_07.txt" #include "Data/group/4th.txt"
+<master> #include "Data/scale/4th_maj_08.txt" #include "Data/group/4th.txt"
+<master> #include "Data/scale/4th_maj_09.txt" #include "Data/group/4th.txt"
+<master> #include "Data/scale/4th_maj_10.txt" #include "Data/group/4th.txt"
+<master> #include "Data/scale/4th_maj_11.txt" #include "Data/group/4th.txt"
+<master> #include "Data/scale/4th_maj_12.txt" #include "Data/group/4th.txt"
+
+<master> #include "Data/scale/5th_maj_01.txt" #include "Data/group/5th.txt"
+<master> #include "Data/scale/5th_maj_02.txt" #include "Data/group/5th.txt"
+<master> #include "Data/scale/5th_maj_03.txt" #include "Data/group/5th.txt"
+<master> #include "Data/scale/5th_maj_04.txt" #include "Data/group/5th.txt"
+<master> #include "Data/scale/5th_maj_05.txt" #include "Data/group/5th.txt"
+<master> #include "Data/scale/5th_maj_06.txt" #include "Data/group/5th.txt"
+<master> #include "Data/scale/5th_maj_07.txt" #include "Data/group/5th.txt"
+<master> #include "Data/scale/5th_maj_08.txt" #include "Data/group/5th.txt"
+<master> #include "Data/scale/5th_maj_09.txt" #include "Data/group/5th.txt"
+<master> #include "Data/scale/5th_maj_10.txt" #include "Data/group/5th.txt"
+<master> #include "Data/scale/5th_maj_11.txt" #include "Data/group/5th.txt"
+<master> #include "Data/scale/5th_maj_12.txt" #include "Data/group/5th.txt"
+
+#include "Data/setting/no_scale.txt"
+<master> #include "Data/setting/sw_1no.txt" #include "Data/group/1no.txt"
+<master> #include "Data/setting/sw_3mi.txt" #include "Data/group/3mi.txt"
+<master> #include "Data/setting/sw_3rd.txt" #include "Data/group/3rd.txt"
+<master> #include "Data/setting/sw_4th.txt" #include "Data/group/4th.txt"
+<master> #include "Data/setting/sw_5th.txt" #include "Data/group/5th.txt"
+<master> #include "Data/setting/sw_8va.txt" #include "Data/group/8va.txt"

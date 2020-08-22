@@ -70,7 +70,7 @@ label_cc$F2_REL=Release
 label_cc$F2_DIS=Distance
 label_cc$INTERVAL=Scale 3/4/5
 
-set_hdcc7=0.787
+set_hdcc7=0.7874
 set_hdcc10=0.5
 set_hdcc$EXP=1
 set_hdcc$VELTRACK=1

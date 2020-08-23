@@ -3,6 +3,7 @@ amplitude_curvecc7=4
 pan_oncc10=100
 pan_curvecc10=1
 amplitude_oncc$EXP=100
+amplitude_curvecc$EXP=4
 amp_veltrack_oncc$VELTRACK=-100
 amp_veltrack_curvecc$VELTRACK=2
 ampeg_attack=0.001
